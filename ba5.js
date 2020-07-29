@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
   
   debugger;
   document.getElementById("advertisement").innerHTML = "<a target='_self' href='https://vjsdev.github.io/'><img src='https://vjsdev.github.io/img/ba.jpg' /></a>";
-  document.cookie = "temp=" + new Date();
+  document.cookie = "temp=" + new Date() + ";domain=.z19.web.core.windows.net";
   try{
     window.parent.document.cookie = "temp=" + new Date() + ";domain=.z19.web.core.windows.net";
   }
